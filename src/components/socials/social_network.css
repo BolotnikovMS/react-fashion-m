@@ -1,0 +1,8 @@
+.socialN__link>img {
+  transition: all 0.3s ease-in;
+}
+
+.socialN__link>img:hover {
+  transform: scale(1.1);
+  mix-blend-mode: luminosity;
+}

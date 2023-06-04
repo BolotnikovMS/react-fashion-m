@@ -1,0 +1,68 @@
+.payday {
+  background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+
+.payday__content {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.payday__text {
+  max-width: 667px;
+  max-height: 684px;
+}
+
+.payday__title {
+  font-weight: 900;
+  font-size: 111.608px;
+  line-height: 1.23;
+  margin-bottom: 33px;
+}
+
+.payday__descr {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.45;
+  letter-spacing: -0.02em;
+  color: #231300;
+  margin-bottom: 51px;
+}
+
+.payday__descr p + p {
+  margin-top: 40px;
+}
+
+.payday__descr p > span:nth-child(1) {
+  font-weight: 700;
+}
+
+.payday__descr p > span:nth-child(3) {
+  font-weight: 400;
+}
+
+.payday__btns {
+  display: flex;
+}
+
+.payday__btns a {
+  padding: 25px 50px 37px;
+  background-color: #000000;
+  border: 1px solid #000;
+  border-radius: 8.13811px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF !important;
+  transition: all 0.4s ease;
+}
+
+.payday__btns a:hover {
+  background-color: transparent;
+  color: #000 !important;
+}
+
+.payday__img {
+  mix-blend-mode: darken;
+}

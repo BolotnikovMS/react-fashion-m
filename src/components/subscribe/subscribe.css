@@ -1,0 +1,36 @@
+.subscribe {
+  padding: 141px 0 156px;
+  background-color: #E5C643;
+}
+
+.subscribe__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe__title {
+  max-width: 966px;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 1.27;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.subscribe__title+* {
+  margin-top: 37px;
+}
+
+.subscribe__descr {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 1.09;
+  letter-spacing: 0.03em;
+  color: #FFFCF8;
+}
+
+.subscribe__descr+* {
+  margin-top: 50px;
+}
